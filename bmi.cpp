@@ -14,7 +14,7 @@ class BMI{
 			};
 		~BMI(){}
 
-		void Calculate_BMI(){
+		void Calculate_BMI() const{
 			_BMI = Patient_Weight/( Patient_Height * 
 					Patient_Height);
 			std::cout<< "\n BMI is : " << _BMI << 
